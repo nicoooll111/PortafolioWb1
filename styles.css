@@ -1,0 +1,99 @@
+/* Configuración general */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondo.jpg'); /* Imagen de fondo principal */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #F9F9F9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado con imagen */
+header {
+    background-image: url('fondo-header.jpg'); /* Imagen de fondo para el encabezado */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 80px 20px; /* Ajuste para mayor presencia */
+    color: #F9F9F9;
+}
+
+/* Texto estilizado con fuente personalizada */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px; /* Tamaño más grande */
+    font-weight: bold;
+    color: #FFFFFF; /* Blanco puro para máxima legibilidad */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Efecto elegante */
+}
+
+/* Estilos para la descripción */
+.descripcion {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #C08E8F; /* Palo de rosa más resaltante */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra para mayor impacto */
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    background: #C08E8F; /* Palo de rosa */
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F9F9F9;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #1E1E2F;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #C08E8F;
+    color: #1E1E2F;
+}
+
+/* Ajuste de la sección "Sobre mí" */
+.sobre-mi-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo de la imagen de perfil */
+.perfil-img {
+    width: 120px; /* Tamaño ajustado */
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Efecto de profundidad */
+}
+
+/* Secciones con bordes y espacio organizado */
+section {
+    padding: 30px; /* Mayor espacio */
+    border-bottom: 2px solid #D1D1D1;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #1E1E2F;
+    text-align: center;
+    padding: 15px;
+    color: #F9F9F9;
+    font-size: 14px;
+}
