@@ -30,6 +30,38 @@
     <title>Portafolio - Nicolle Villarreal Melo</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos para el banner promocional */
+        .banner-promocional {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: pulse 2s infinite;
+        }
+        
+        .banner-promocional a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .banner-promocional a:hover {
+            text-decoration: underline;
+            color: #ffeb3b;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+            50% { box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); }
+            100% { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+        }
+    </style>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -114,6 +146,14 @@
             <p>Teléfono: 3224549271</p>
             <p>Ubicación: Bogotá, Colombia</p>
         </section>
+        
+        <!-- Banner Promocional -->
+        <div class="banner-promocional">
+            <p>¡Descubre el increíble portafolio de mi colega desarrollador! 👨‍💻✨</p>
+            <a href="https://cv-felipetabares.xyz/?utm_source=website&utm_medium=banner&utm_campaign=view_resume&utm_term=Resume+Blog+Catalogo+&utm_content=Portafolio+" target="_blank">
+                Visita el portafolio de Felipe Tabares ➡️
+            </a>
+        </div>
     </main>
 
     <footer>
